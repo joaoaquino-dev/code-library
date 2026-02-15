@@ -6,9 +6,9 @@ import Footer from "./components/Footer.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div className="container">
+    <div className="flex flex-col h-screen bg-[#F4FBFF}">
       <Header />
-      <div className="content">
+      <div className="flex-1 max-w-300 w-full m-auto">
         <p>João Aquino</p>
       </div>
       <Footer />
