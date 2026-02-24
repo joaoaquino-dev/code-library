@@ -19,7 +19,8 @@ createRoot(document.getElementById("root")!).render(
           <p className="font-bold text-[#00A2F7] text-center">
             Nossos cursos mais buscados
           </p>
-          <div className="grid grid-cols-4 gap-4 mt-3">
+          <div className="grid grid-cols-5 gap-4 mt-3">
+            <Card />
             <Card />
             <Card />
             <Card />
