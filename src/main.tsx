@@ -5,6 +5,7 @@ import Header from "./components/Header.tsx";
 import Filter from "./components/Filter.tsx";
 import Card from "./components/Card.tsx";
 import Footer from "./components/Footer.tsx";
+import Info from "./components/Info.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -15,7 +16,7 @@ createRoot(document.getElementById("root")!).render(
           title="Busque o conteúdo que deseja assistir hoje"
           placeholder="Buscar curso"
         />
-        <div className="bg-white rounded-md py-4 mt-4">
+        <div className="bg-white rounded-md py-2 mt-4">
           <p className="font-bold text-[#00A2F7] text-center">
             Nossos cursos mais buscados
           </p>
@@ -33,6 +34,7 @@ createRoot(document.getElementById("root")!).render(
             />
           </div>
         </div>
+        <Info />
       </main>
       <Footer />
     </div>
